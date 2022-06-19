@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  cursor: pointer;
+}
+
+.App-logo:hover {
+  cursor: pointer;
+}
+
+.App-logo-table {
+  height: 1.4em;
+  pointer-events: none;
+  float: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+  .App-logo-table {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.lesson-card {
+  display: inline-block;
+  width: 22.5%;
+  margin-right: 24px;
+  text-align: center;
+  box-shadow: 0 0 6px #e8e8e8;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.lesson-item {
+  border-radius: 4px;
+  padding: 48px 0 64px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-inner {
+  position: absolute;
+  top: 8%;
+  right: 0;
+  left: 0;
+  width: 480px;
+  padding-bottom: 60px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+
+.modal-header {
+  height: 8px;
+  width: 100%;
+  margin-bottom: 60px;
+  border-radius: 8px 8px 0 0;
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/modal_bar.svg");
+}
+
+.modal-introduction p {
+  color: #5876a3;
+  width: 384px;
+  line-height: 32px;
+  text-align: left;
+  margin: 36px auto 40px;
+}
+
+.modal-close-btn {
+  font-size: 13px;
+  color: #8491a5;
+  width: 200px;
+  padding: 16px 0;
+  border: 0;
+  background-color: #f0f4f9;
+  cursor: pointer;
+}
+
+.modal-close-btn:hover {
+  color: #8491a5;
+  background-color: #ccd9ea;
+  transition: .3s ease-in-out;
+}
+
+.Owner {
+  font-weight: bold;
+}
+
+.Remember-note {
+  color: red;
+}
+
+.Reactive-todo {
+  float: left;
+  padding: 0;
+  margin-top: 0.3em;
+  font-size: 0.7em;
+}
+
+.Table-container {
+  width: 70%;
+  /* height: 65vmin;
+  width: 70vmin; */
+  /* overflow-x: scroll; */
+}
