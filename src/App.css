@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  cursor: pointer;
+}
+
+.App-logo:hover {
+  cursor: pointer;
+}
+
+.App-logo-table {
+  height: 1.4em;
+  pointer-events: none;
+  float: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+  .App-logo-table {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Owner {
+  font-weight: bold;
+}
+
+.Remember-note {
+  color: red;
+  font-size: large;
+}
+
+.Reminder-note {
+  color: orange;
+  font-size: small;
+  padding: 0;
+}
+
+.Reactive-todo {
+  float: left;
+  padding: 0;
+  margin-top: 0.3em;
+  font-size: 0.7em;
+}
+
+.Table-container {
+  width: 70%;
+  /* height: 65vmin;
+  width: 70vmin; */
+  /* overflow-x: scroll; */
+}
