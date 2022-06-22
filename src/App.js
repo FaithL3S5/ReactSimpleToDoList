@@ -38,17 +38,17 @@ function App() {
   }
 
   const clickHandlerCreate = () => {
-    axios.post(`https://62ab9821bd0e5d29af12f141.mockapi.io/api/todo/v1/WorkList`, {
+    axios.post(`/api/todo/v1/WorkList`, {
       "work": [
       ]
     })
     .then(() => {
       toastInfo("UUID Created!");
-      axios.get(`https://62ab9821bd0e5d29af12f141.mockapi.io/api/todo/v1/WorkList`)
+      axios.get(`/api/todo/v1/WorkList`)
       .then((res) => {
         setUserName(res.data.length);
         let uId = res.data.length
-        axios.get(`https://62ab9821bd0e5d29af12f141.mockapi.io/api/todo/v1/WorkList/${uId}`)
+        axios.get(`/api/todo/v1/WorkList/${uId}`)
         .then((res) => {
           clicked===1?isClicked(0):isClicked(1);
           setTableData(res.data.work);
@@ -66,7 +66,7 @@ function App() {
     if(parseInt(userName) !== parseInt(userName, 10) || userName === "") {
       toastError("Please Input Your UID Correctly");
     }else{
-      axios.get(`https://62ab9821bd0e5d29af12f141.mockapi.io/api/todo/v1/WorkList/${userName}`)
+      axios.get(`/api/todo/v1/WorkList/${userName}`)
       .then((res) => {
         clicked===1?isClicked(0):isClicked(1);
         setTableData(res.data.work);

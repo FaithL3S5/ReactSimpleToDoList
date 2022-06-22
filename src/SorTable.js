@@ -48,7 +48,7 @@ function SorTable(userName, tableData) {
   let checkedObject = {};
   
   function dataPatch(standByPatchData, isChanged) {
-    axios.patch(`https://62ab9821bd0e5d29af12f141.mockapi.io/api/todo/v1/WorkList/${userName}`, standByPatchData)
+    axios.patch(`/api/todo/v1/WorkList/${userName}`, standByPatchData)
     .then(() => {
       if(isChanged){
         toastInfo("Data Updated")
@@ -63,9 +63,9 @@ function SorTable(userName, tableData) {
   }
 
   function dataPost(standByPostData) {
-    axios.patch(`https://62ab9821bd0e5d29af12f141.mockapi.io/api/todo/v1/WorkList/${userName}`, standByPostData)
+    axios.patch(`/api/todo/v1/WorkList/${userName}`, standByPostData)
     .then(() => {
-      axios.get(`https://62ab9821bd0e5d29af12f141.mockapi.io/api/todo/v1/WorkList/${userName}`)
+      axios.get(`/api/todo/v1/WorkList/${userName}`)
       .then((res) => {
         tabData = res.data.work;
         toastInfo("Data Has Been Added");
@@ -79,9 +79,9 @@ function SorTable(userName, tableData) {
   }
 
   function dataDelete(standByDeleteData) {
-    axios.patch(`https://62ab9821bd0e5d29af12f141.mockapi.io/api/todo/v1/WorkList/${userName}`, standByDeleteData)
+    axios.patch(`/api/todo/v1/WorkList/${userName}`, standByDeleteData)
     .then(() => {
-      axios.get(`https://62ab9821bd0e5d29af12f141.mockapi.io/api/todo/v1/WorkList/${userName}`)
+      axios.get(`/api/todo/v1/WorkList/${userName}`)
       .then((res) => {
         tabData = res.data.work;
         forceUpdate();
