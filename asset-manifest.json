@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ReactSimpleToDoList/static/css/main.4f6305c2.css",
-    "main.js": "/ReactSimpleToDoList/static/js/main.f6038fa8.js",
+    "main.css": "/ReactSimpleToDoList/static/css/main.d0cd8bef.css",
+    "main.js": "/ReactSimpleToDoList/static/js/main.115e519c.js",
     "static/media/brand-icons.svg": "/ReactSimpleToDoList/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/icons.svg": "/ReactSimpleToDoList/static/media/icons.62d9dae4e0040e81c980.svg",
     "static/media/outline-icons.svg": "/ReactSimpleToDoList/static/media/outline-icons.9c4845b4b41ef40a22fa.svg",
@@ -20,11 +20,11 @@
     "static/media/outline-icons.woff2": "/ReactSimpleToDoList/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "static/media/logo.svg": "/ReactSimpleToDoList/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/ReactSimpleToDoList/index.html",
-    "main.4f6305c2.css.map": "/ReactSimpleToDoList/static/css/main.4f6305c2.css.map",
-    "main.f6038fa8.js.map": "/ReactSimpleToDoList/static/js/main.f6038fa8.js.map"
+    "main.d0cd8bef.css.map": "/ReactSimpleToDoList/static/css/main.d0cd8bef.css.map",
+    "main.115e519c.js.map": "/ReactSimpleToDoList/static/js/main.115e519c.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f6305c2.css",
-    "static/js/main.f6038fa8.js"
+    "static/css/main.d0cd8bef.css",
+    "static/js/main.115e519c.js"
   ]
 }
