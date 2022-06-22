@@ -1,4 +1,4 @@
-Program Name: To-Do List Simple RApp (WebCalc-Basic)
+Program Name: To-Do List Simple RApp
 
 Written in: HTML, CSS, JavaScript with ReactJS
 
