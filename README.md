@@ -4,15 +4,11 @@ Written in: HTML, CSS, JavaScript with ReactJS
 
 Version: 1.0
 
-Build with the help of Progate Academy
-
-***THIS APP USES AN OLD TOOLTIP PACKAGE THAT DEPENDS ON REACT 17 OR BELOW, THERE MIGHT BE A WARNING THAT PREVENTS YOU TO NPM INSTALL IT IF YOU USE REACT VERSION ABOVE 17. USE --FORCE ARGUMENT ON YOUR NPM INSTALL COMMAND TO IGNORE THE WARNING***
+Build with the help of Progate Academy & MDN
 
 ===
 
 A simple react app for storing your to-do list. What else can be said?
-
-This app uses mockapi's APIs and Database to store your data for a quick and persistent storage.
 
 ===
 
